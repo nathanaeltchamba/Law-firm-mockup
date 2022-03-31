@@ -1,0 +1,155 @@
+body {
+    font-family: 'roboto';
+}
+
+/* HEADER BEGIN */
+
+nav {
+    display: flex;
+    justify-content: left;
+    background-color: black;
+}
+
+#title {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+}
+
+.navspace {
+    width: 200px
+}
+
+.nav-links {
+    display: flex;
+    font-family: Roboto;
+    list-style-type: none;
+    gap: 45 px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    padding: 10px;
+}
+
+/* END NAV STYLES */
+/* START HERO IMAGE STYLES */
+.hero-text {
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.hero-image {
+    height: 400 px;
+}
+
+.hero-image {
+    align-items: center;
+}
+
+.hero-text {
+    justify-content: center;
+    color: white;
+    margin-top: 300px;
+}
+
+.hero-image h1 {
+    font-size: 100px;
+}
+
+/* END HERO IMAGE STYLES */
+
+/* Header End */
+
+/* Main Begin */
+
+#date {
+    border: solid .5px rgb(31, 30, 30);
+    background-color: rgb(241, 238, 238);
+    margin: 60px 0 40px 0;
+}
+
+#date h3 {
+    padding-left: 80px;
+}
+
+#play-image {
+    padding-left: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    padding-bottom: 40px;
+}
+
+#play-details {
+    padding-left: 60px;
+    max-width: 100%;
+
+}
+
+.btn-readmore {
+    color: white;
+    border: solid .5px black;
+}
+
+#read-more {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 70px 0;
+}
+
+.line {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Main End */
+
+/* Footer Begin */
+
+footer .columns {
+    display: flex;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.columns {
+    justify-content: space-around;
+    padding-right: 40px;
+}
+
+
+.columns .column {
+    padding-top: 70px;
+    text-decoration: none;
+}
+
+.columns .column ul {
+    list-style-type: none;
+    color: white;
+}
+
+.columns .column ul li {
+    margin: 30px 0;
+    padding: 10px;
+    
+}
+
+.columns .column h3 {
+    text-align: center;
+    align-content: center;
+}
+
+.column ul li a {
+    color: rgb(245, 244, 244);
+    text-align: start;
+    
+}
+/* Footer End */
