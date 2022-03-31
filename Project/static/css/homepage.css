@@ -1,0 +1,131 @@
+/* GLOBAL BEGIN */
+
+body {
+    background-image: url(/images/nza_background.jpg);
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+/* GLOBAL END */
+
+.white-background {
+    background-color: white;
+}
+
+/* HEADER BEGIN */
+
+.col-4 {
+    margin-top: 40px;
+}
+
+.button1 {
+    justify-content: flex-end;
+}
+
+nav .links {
+    margin: 40px 0;
+}
+
+nav .links ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav .links ul li {
+    display: inline-block;
+    padding: 0 7px;
+    position: relative;
+}
+
+nav .links ul li:not(:last-child)::after {
+    content: "";
+    border: 1px solid #e2e2e2;
+    border-width: 4px 4px 0 0;
+    position: absolute;
+    right: -3px;
+    top: 0;
+    height: 100%;
+}
+
+nav .links ul li a {
+    color: black;
+    padding: 0 30px 0 30px;
+    max-width: 100%;
+    margin: 0 9.4px 0 9.4px;
+    justify-content: space-around;
+}
+
+/* HEADER END */
+
+
+/* MAIN BEGIN */
+
+.side-bar {
+    background-image: url(/images/nav_side.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    overflow-y: scroll;
+    margin-top: 40px;
+    color: white;
+    padding: 20px;
+}
+
+.side-bar hr {
+    border-color: white;
+}
+
+
+
+.welcome-address {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.welcome h3 {
+    
+}
+
+/* MAIN END */
+
+
+/* FOOTER BEGIN */
+
+hr {
+    border-top: 2px solid black;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-links ul li a {
+    color: black;
+    opacity: 50%;
+    padding: 0 20px;
+}
+
+.copyright p {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 200;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* FOOTER END */
