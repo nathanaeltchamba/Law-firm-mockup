@@ -59,49 +59,55 @@ nav .links ul li a {
 
 /* HEADER END */
 
-
 /* MAIN BEGIN */
 
-.side-bar {
+.col-3 {
+    
+}
+
+.info-content {
     background-image: url(/images/nav_side.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    overflow-y: scroll;
-    margin-top: 40px;
     color: white;
-    padding: 20px;
+    padding: 20px 20px;
 }
 
-.side-bar hr {
+.col-3 hr {
     border-color: white;
 }
 
-
-
-.welcome-address {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding-top: 40px;
+.col-3 .a {
+    text-indent: 20px;
 }
 
-.welcome h3 {
-    font-size: medium;
+.col-3 .b {
+    text-indent: 20px;
 }
 
-.address h3 {
-    font-size: medium;
+.col-3 .c {
+    text-indent: 20px;
 }
 
-.address {
-    font-size: 10px;
-    padding-right: 110px;
+.col-3 .d {
+    text-indent: 20px;
 }
 
-.welcome {
-    padding-left: 15px;
+.col-9 {
+    padding-left: 40px;
 }
+
+.col-9 .image-info {
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.col-9 .image-info img {
+    margin: 10px;
+}
+
+
+/* MAIN END */
 
 /* MAIN END */
 

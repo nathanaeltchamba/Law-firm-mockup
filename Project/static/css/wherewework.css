@@ -59,49 +59,87 @@ nav .links ul li a {
 
 /* HEADER END */
 
-
 /* MAIN BEGIN */
 
-.side-bar {
+.United-States ul {
+    columns: 3;
+}
+
+.work-bar {
     background-image: url(/images/nav_side.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    overflow-y: scroll;
-    margin-top: 40px;
-    color: white;
-    padding: 20px;
 }
 
-.side-bar hr {
+.work-bar {
+    color: white;
+    margin-left: 20px;
+}
+
+.work {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.work h3 {
+    padding-top: 20px;
+    font-size: 24px;
+}
+.work p {
+    font-size: 12px;
+}
+.work hr {
     border-color: white;
 }
 
-
-
-.welcome-address {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding-top: 40px;
+.work-bar img {
+    padding-left: 5px;
 }
 
-.welcome h3 {
-    font-size: medium;
+.work-bar {
+    padding: 0 0 0 15px;
 }
 
-.address h3 {
-    font-size: medium;
+.work-bar #career {
+    padding-bottom: 10px;
 }
 
-.address {
-    font-size: 10px;
-    padding-right: 110px;
+#career p {
+    font-size: 12px;
 }
 
-.welcome {
-    padding-left: 15px;
+.United-States h4 {
+    font-size: 18px;
+    font-weight: 200;
 }
+
+.United-States ul {
+    list-style-type: none;
+}
+
+.international h4 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.international ul {
+    list-style-type: none;
+}
+
+.international ul li {
+    text-align: start;
+}
+
+.United-States hr {
+    border-color: lightgray;
+}
+
+.international hr {
+    border-color: lightgray;
+}
+
+
 
 /* MAIN END */
 
@@ -138,7 +176,6 @@ hr {
 span {
     margin-bottom: 10px;
 }
-
 
 
 

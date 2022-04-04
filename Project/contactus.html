@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Home Page</title>
+    <title>Contact Us Page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,17 +10,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./static/css/homepage.css">
+    <link rel="stylesheet" href="./static/css/contactus.css">
 </head>
 
 <body>
+    <div class="container">
 
     <header>
-        <div class="container">
+        <div class="info-head">
             <div class="row">
                 <div class="col-4">
-                    <a href="./homepage.html"><img src="https://via.placeholder.com/318x76&type=logo"
-                            alt="Logo Image"></a>
+                    <a href="./homepage.html"><img src="https://via.placeholder.com/318x76&type=logo" alt="Logo Image"></a>
                 </div>
                 <div class="col-2 offset-6">
                     <div class="button1">
@@ -42,15 +42,70 @@
                 </div>
             </nav>
         </div>
-
+    
     </header>
-
+    <!-- BEGIN MAIN CONTENT -->
     <main>
-
+        <div class="row">
+            <div class="col-3">
+                <div class="contact-bar">
+                    <h4><small>CONTACT US</small></h4>
+                    <hr>
+                    <p>Directions/Parking</p>
+                    <p>Career Opportunities</p>
+                    <div class="contact-image">
+                        <img src="https://via.placeholder.com/190x120&text=pens" alt="Pens & Paper Image" class="img-fluid" >
+                    </div>
+                    <div class="subcontact-bar">
+                        <h4><small><strong>News & Events</strong></small></h4>
+                        <p>Read the most current information about our firm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="phone-image">
+                    <img src="https://via.placeholder.com/480x145&text=phone" alt="Telephone Image" class="img-fluid">
+                </div>
+                <div class="information">
+                    <p>Office hours are from 8am &mdash; 5pm Monday through Friday</p>
+                    <div id="address">
+                        <p>689 East South Street</p>
+                        <p>Suite 4210</p>
+                        <p>Houston, Texas 09345</p>
+                    </div>
+                    <div id="phone-fax">
+                        <p>PH:332.332.38980</p>
+                        <p>FAX:332.323.5477</p>
+                    </div>
+                    <div class="email-contact">
+                        <p>Contact: Rosemary Sage at <a href="#">me@lzblaw.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rep-bar">
+                    <div class="rep-content">
+                        <img src="https://via.placeholder.com/190x80&text=map" alt="Miniature Map" class="img-fluid" >
+                        <div class="redfont">
+                            <h4><strong>Where We Work</strong></h4>
+                            <p>Find out more about our work</p>
+                            <p>coverage area</p>
+                        </div>
+                    </div>
+                    <div class="reputation">
+                        <div class="rep-content1">
+                            <img src="https://via.placeholder.com/190x80&text=rep" alt="Lawyers Image" class="img-fluid">
+                            <h4><strong>Reputation</strong></h4>
+                            <p>Read more about our admirable reputation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-
+    <!-- END MAIN CONTENT -->
     <footer>
-        <div class="container">
+        <div class="info-footer">
             <hr>
             <div class="footer-links">
                 <ul>
@@ -74,7 +129,7 @@
             </div>
         </div>
     </footer>
-
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -86,6 +141,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
